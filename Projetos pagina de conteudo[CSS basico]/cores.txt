@@ -1,0 +1,4 @@
+Fonte: Open Sans (google fonts)
+Cores das fontes: #555(cinza), #111(preta)
+Cor dos links: #fd8a24 (laranja)
+Cor da top bar e da footer: #333(cinza)

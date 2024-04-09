@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+}
+
+.top-bar{
+    height: 50px;
+    background-color: #ff6b28;
+    text-align: center;
+    padding: 12px;
+}
+
+.imagem-bolo{
+   height: 400px;
+   background: url(images/hero_bolo.jpg);
+   background-size: cover;
+   background-position: center;
+   
+}
+
+
+.conteudo{
+    max-width: 800px;
+    margin: 80px auto;
+   
+}
+
+.titulo-bolo{
+    color: #ff6b28;
+    font-size: 22px;
+    padding: 10px;
+    
+}
+
+    /* Ingredentes */
+
+.ingredientes{
+    padding: 35px;
+    margin: 50px;
+    cursor: url(images/cursor_ingredientes1.png), pointer;
+    
+}
+
+.ingredientes h2{
+    margin: 15 10;
+    padding: 12px;
+    color: #ff6b28;
+}
+
+.ingredientes ul{
+    margin: 20px;
+    
+}
+
+.ingredientes li{
+    line-height: 40px ;
+    font-weight: 600;
+}
+
+.butao-compra{
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+
+.butao-compra a{
+    text-decoration: none;
+    border: 1px;
+    background-color: #ff6b28;
+    color: white;
+    padding: 12px ;
+    border-radius: 15px;
+}
+
+/* efeitos de ingredientes */
+
+.ingredientes:hover{
+    box-shadow: 8px 8px 8px 8px rgba(189, 188, 188, 0.959);
+    border-radius: 10px;
+    
+    
+}
+
+.butao-compra a:hover{
+    padding: 15px;
+    box-shadow: 1px 1px 8px 2px #fc631c;
+}
+
+/* Modo de Preparo */
+
+.modo-de-preparo{
+    margin: 50px;
+    padding: 40px;
+    cursor: url(images/cursor_preparo.png), pointer;
+}
+
+.modo-de-preparo h2{
+    color: #ff6b28;
+    margin-bottom: 25px;
+}
+
+.modo-de-preparo p{
+    margin-bottom: 25px;
+}
+
+.modo-de-preparo li{
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+/* Efeitos Modo de Preparo */
+
+.modo-de-preparo:hover{
+    box-shadow: 8px 8px 8px 8px rgba(189, 188, 188, 0.959);
+    border-radius: 10px;
+}
+
+
+    /* Intrucoes Adicionais */
+
+.intrucoes-adicionais{
+    margin: 50px;
+    padding: 40px;
+    border-left: 50px solid #ff6b28;
+    border-radius: 10px;
+    cursor: url(images/cursor_intrucoes.png), pointer;
+}
+
+.intrucoes-adicionais h2{
+    color: #ff6b28;
+    margin-bottom: 25px;
+}
+
+.intrucoes-adicionais p{
+    font-weight: 600;
+}
+
+.intrucoes-adicionais:hover{
+    box-shadow: 8px 8px 8px 8px rgba(189, 188, 188, 0.959);
+    border-radius: 10px;
+}
+
+.bar-infe{
+    height: 50px;
+    background-color: #ff6b28;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    
+}

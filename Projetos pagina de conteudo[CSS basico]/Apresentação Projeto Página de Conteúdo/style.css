@@ -1,0 +1,111 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Open Sans';
+    
+}
+
+    /* Top-bar */
+
+.top-bar{
+    height: 40px;
+    background-color: #3d3d3d;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 8px solid #fd8a24;
+}
+
+    /* header */
+
+.header{
+    
+    /* O max-width funciona como um viewport */
+    max-width: 880px;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+.header h1{
+    font-size: 66px;
+    line-height: 62px;
+    color: #111;
+    
+    
+}
+
+.header h2{
+    font-size: 27px;
+    font-weight: 400;
+    color:#111;
+    font-weight: 400;
+
+}
+
+.author{
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: #111;
+}
+
+.header small{
+    color: #5555557a;
+    font-weight: 100;
+}
+
+.links{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.links a{
+    margin-right: 15px;
+}
+
+        /* Conteudo */
+
+.content{
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+.content p{
+    font-size: 20px;
+    color: #555;
+    margin: 40px 0 
+    
+}
+
+.content a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: 700;
+}
+
+
+figure{
+    padding: 0;
+    margin: 0;
+    font-size: small;
+}
+
+figure>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Barra inferior */
+
+.sub-bar{
+    height: 40px;
+    background-color: #3d3d3d;
+}
+
+
+
